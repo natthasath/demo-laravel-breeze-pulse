@@ -39,6 +39,20 @@ php artisan vendor:publish --tag=pulse-dashboard
 php artisan migrate
 ```
 
+- Make Seeder
+
+```shell
+php artisan make:seeder 
+php artisan db:seed --class=PulseDataSeeder
+```
+
+- Make Job
+
+```shell
+php artisan make:job SlowJob
+php artisan queue:work
+```
+
 ### 🏆 Run
 
 - [http://localhost:8000/](http://localhost:8000/) username : `admin` password : `admin`
