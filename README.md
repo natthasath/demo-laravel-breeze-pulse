@@ -55,7 +55,7 @@ php artisan queue:work
 
 ### 🏆 Run
 
-- [http://localhost:8000/](http://localhost:8000/) username : `admin` password : `admin`
+- [http://localhost:8000/pulse](http://localhost:8000/pulse) username : `admin` password : `admin`
 
 ```shell
 php artisan serve
